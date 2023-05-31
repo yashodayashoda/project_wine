@@ -25,32 +25,16 @@ def load_data(data):
 # Paths
 
 
-data = r"C:\Users\Windows\Downloads\DataSets-main (10)\DataSets-main\wine.csv"
-
-data_cleanded = r"C:\Users\Windows\Downloads\DataSets-main (10)\DataSets-main\wine.csv"
-
-data_freq = r"C:\Users\Windows\Downloads\DataSets-main (10)\DataSets-main\wine.csv"
+data = r"C:\Users\Windows\Downloads\DataSets-main (8)\DataSets-main\wine.csv"
+data_cleanded = r"C:\Users\Windows\Downloads\DataSets-main (8)\DataSets-main\wine.csv"
+data_freq = r"C:\Users\Windows\Downloads\DataSets-main (8)\DataSets-main\wine.csv"
 
 
-def load_data(data):
-    try:
-        df = pd.read_csv(data)  # Replace 'data' with the correct file path
-        # Process the dataframe as needed
-        return df
-    except FileNotFoundError:
-        print("File not found. Please check the file path.")
+# def main():
+#     run_eda_app()
 
-def run_eda_app():
-    # Assuming 'data' is the variable containing the file path
-    data = "path/to/your/file.csv"  # Replace with the correct file path
-    df = load_data(data)
-    # Continue with your application logic
-
-def main():
-    run_eda_app()
-
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 
 
 def run_eda_app():

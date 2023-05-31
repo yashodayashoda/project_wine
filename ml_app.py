@@ -103,11 +103,11 @@ def run_ml_app():
         submenu = ["Logistic_Regression", "Decision Tree"]
         submenu = st.sidebar.selectbox("Submenu", submenu)
 
-        if submenu == "Logistic_Regression":
-            st.subheader("Logistic Regression Model")
+        # if submenu == "Logistic_Regression":
+        #     st.subheader("Logistic Regression Model")
 
-            model = load_model(r"http://localhost:8888/edit/df_pickle.pkl")
-            prediction = model.predict(single_sample)
-            st.write
+        #     model = load_model(r"http://localhost:8888/edit/df_pickle.pkl")
+        #     prediction = model.predict(single_sample)
+        #     st.write
 if __name__ == "__main__":
     run_ml_app()
